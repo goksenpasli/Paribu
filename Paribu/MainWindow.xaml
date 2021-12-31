@@ -1,0 +1,1091 @@
+﻿<Window Title="Paribu"
+    x:Class="Paribu.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:Paribu"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="800" Height="450"
+    d:DataContext="{d:DesignInstance Type=local:MainViewModel}"
+    UseLayoutRounding="True" WindowStartupLocation="CenterScreen" WindowState="Maximized"
+    mc:Ignorable="d">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <UniformGrid Columns="10" Rows="9">
+            <UniformGrid.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="FontSize" Value="10" />
+                </Style>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Margin" Value="3" />
+                </Style>
+            </UniformGrid.Resources>
+            <StackPanel DataContext="{Binding MyProperty.BtcTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.EthTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.XrpTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.BtcUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.OmgTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.BandTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.MkrTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AvaxTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.DotTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.XtzTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AtomTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.TrxTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.ReefTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.HotTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.WavesTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.OntTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.LinkTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.ChzTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.RvnTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.BatTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.LrcTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.BttTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.LtcTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.BchTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.XlmTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.DogeTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AdaTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.NeoTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.UsdtTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.EosTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.GalChz}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.GalTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.TraTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.JuvTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.PsgTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.EthUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.XrpUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.LinkUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AcmTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AtmTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AsrTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.BarTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.CityTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.MkrUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.UniTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AvaxUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AaveTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.XlmUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AdaUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.BalTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.WavesUsdt}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.ZilTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AlgoTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.EnjTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.ThetaTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.OgnTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.GrtTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.MaticTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.OxtTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.FbTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.CrvTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.ManaTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.MiotaTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.MinaTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.SolTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.KeepTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.VetTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AnkrTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.InterTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.ShibTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AfcTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.IcpTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.FtmTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.InjTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.LptTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AxsTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.EnsTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AudioTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.SandTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.ClvTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.AliceTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.TlmTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.TrycTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.GalaTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.TvkTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.CeekTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.RacaTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.GozTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+            <StackPanel DataContext="{Binding MyProperty.VcfTl}">
+
+                <TextBlock Text="{Binding Avg24Hr}" />
+                <TextBlock Text="{Binding Change}" />
+                <TextBlock Text="{Binding High24Hr}" />
+                <TextBlock Text="{Binding HighestBid}" />
+                <TextBlock Text="{Binding Last}" />
+                <TextBlock Text="{Binding Low24Hr}" />
+                <TextBlock Text="{Binding LowestAsk}" />
+                <TextBlock Text="{Binding PercentChange}" />
+                <TextBlock Text="{Binding Volume}" />
+            </StackPanel>
+        </UniformGrid>
+    </ScrollViewer>
+</Window>
